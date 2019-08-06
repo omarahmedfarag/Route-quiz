@@ -1,0 +1,406 @@
+
+body
+{
+    font-family: 'Poppins', Helvetica, arial, sans-serif
+    
+}
+
+
+.navbar
+{
+    background-color: #000;
+    
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    
+}
+.navbar li a
+{
+    
+    
+    padding: 20px 30px;
+    transition: all 0.5s ;
+    font-weight: 400
+    
+}
+
+
+.navbar li 
+{
+    
+    padding: 0px 10px;
+    
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link:hover 
+{
+    
+    color: red;
+    
+}
+
+
+.home
+{
+ 
+    height: 700px;
+    background-image: url(../imgs/cover.jpg);
+    background-position: center right;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.home-lyer
+{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(236, 51, 55, 0.7);
+}
+
+.home-info h1
+{
+    font-size: 53px;
+    text-shadow:  0px 5px 10px #af2424;
+    font-weight:700; 
+}
+
+.home-info p
+{
+    font-size: 25px;
+    
+}
+.border-bottom
+{
+    
+    border-bottom:10px solid red;
+    
+}
+
+
+.custom-btn
+{
+    color: #FFF;
+    border-radius:0px;
+    border: 2px solid white;
+    padding: 10px 40px;
+    transition: 0.5s all
+    
+}
+
+.custom-btn:hover
+{
+    
+    background-color: #FFF;
+    border-color: #fff;
+    color:red;
+    
+}
+
+.about-info p
+{
+    
+    font-size: 18px;
+}
+
+.social ul
+{
+    list-style: none;
+    padding: 0;
+    overflow: auto;
+}
+
+
+
+.social ul li
+{
+
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px 0px 5px 10px;
+    transform: scale(0.8);
+
+    
+    
+}
+
+
+.social ul i
+{
+
+    font-size: 30px;
+    color: #000;
+    margin-right: 15px;
+    color:dimgray;
+    transform: scale(0.8);
+}
+
+
+.skill-btn
+{
+    
+    border:none
+    
+}
+
+
+.social ul li:hover
+{
+    
+     background-color: red;
+    border: 1px solid red;
+    
+}
+.social ul li:hover i
+{
+
+    
+    
+    background-color: red;
+    color: #fff;
+}
+
+.todo
+{
+    
+    background-color: #f5f5f5;
+    
+}
+
+.todo-ico
+{
+    
+    width: 40px;
+    height: 40px;
+    background-color: #eee;
+    margin-bottom: 15px;
+    
+}
+.todo-ico i
+{
+    
+    font-size: 20px;
+}
+.todo .to-do
+{
+    
+        box-shadow: 0px 1px 4px rgba(107, 69, 69, 0.050);
+    
+}
+.todo .to-do p 
+{
+    
+    font-size: 18px;
+    
+}
+.todo .to-do h4
+{
+    
+    font-size: 18px;
+    font-weight: 700;
+
+
+}
+.to-do:hover .todo-ico 
+{
+    
+    background-color: red;
+    color: #fff;
+    
+}
+
+.to-do:hover h4
+{
+    
+    
+    color:red;
+    
+}
+
+
+.numbers
+{
+    
+    background-image: url(../imgs/project-counter.jpg);
+    background-size: cover;
+    
+    
+}
+.numbers .number i
+{
+    font-size: 30px;
+}
+.numbers .number h3
+{
+    font-size: 40px;
+}
+.numbers .number h5
+{
+    font-size:18px;
+    font-weight:600; 
+    
+}
+
+.numbers .custom-border
+{
+    
+    border: 1px solid rgba(255,255,255,0.1);
+
+
+}
+
+
+.portfolio
+{
+    
+    background-color: #f5f5f5;
+    
+}
+.portfolio .port-info
+
+{
+    
+   position: relative;
+    
+}
+.portfolio .my-port .search
+
+{
+    
+    width: 35px ;
+    height: 35px;
+    border-radius: 100%;
+    position: absolute;
+    top: -19px;
+    left: 45%;
+    background-color: black;
+}
+
+
+.portfolio .portfolio-btn
+
+{
+    
+    color: #000;
+    border: 2px solid #ddd;
+    
+    
+    
+}
+.portfolio .portfolio-btn:hover
+{
+    background-color: #f5f5f5;
+    color: red;
+    border: 2px solid red;
+
+    
+}
+.portfolio .my-port .search i
+
+{
+    
+    font-size: 20px;
+    color: #fff;
+}
+
+.portfolio .my-port:hover .search
+
+{
+    
+    background-color: red;
+}
+
+.
+
+
+.my-port .port-info h3
+{
+    font-size: 18px;
+    font-weight: 700
+    
+    
+}
+
+.hire-me .contact-form input
+{
+    border: 3px solid #eee;
+    
+}.hire-me .contact-form textarea
+{
+    border: 3px solid #eee;
+    
+}
+
+.slider
+{
+    
+    background-image: url(../imgs/client-testimonial.jpg);
+    background-size: cover;
+    
+}
+
+.slider .rounded-div
+{
+    
+    border: 5px solid red;
+    border-radius: 100%;
+    background-image: url(../imgs/branding-three.jpg);
+    background-size: cover;
+    height: 125px;
+    
+    
+}
+
+
+
+@media only screen and (max-width: 700px)
+{
+    .home h1 
+    {
+        
+        font-size: 25px;
+        
+        
+    }
+     .home p
+    {
+        
+        font-size: 15px;
+        
+        
+    }
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
